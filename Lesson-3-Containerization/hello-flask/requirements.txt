@@ -1,0 +1,4 @@
+flask
+markupsafe
+pylint
+pylint-flask
