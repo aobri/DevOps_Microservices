@@ -15,6 +15,6 @@ lint:
 	pylint --load-plugins pylint_flask --disable=R,C *.py
 
 run: 
-	flask run
+	flask run --host "0.0.0.0"
 	
 all: install lint

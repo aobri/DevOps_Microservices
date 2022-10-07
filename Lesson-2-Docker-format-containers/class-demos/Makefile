@@ -20,6 +20,7 @@ run-circleci-local:
 	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
 	# Failing attempts to fix this, it seems like they broke it and never fixed it! 
 	circleci local execute
+	# circleci local execute -c .circleci/config.yml
 	# circleci local execute -v $(ROOT_DIR):/workdir
 	# circleci build -v $(ROOT_DIR):/workdir
 

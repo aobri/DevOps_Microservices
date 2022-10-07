@@ -2,3 +2,4 @@ flask
 markupsafe
 pylint
 pylint-flask
+sensible
